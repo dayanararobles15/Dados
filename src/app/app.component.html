@@ -1,0 +1,12 @@
+<div class="jumbotron text-center" style="margin-top: 10%;">
+  <button class="btn btn-success btn-lg"
+  (click)="lanzarDados()">Lanzar Dados</button>
+  <hr>
+  <img class="img" [src]="dadoDerecha">
+  <img class="img" [src]="dadoIzaquierda">
+  <h1 *ngIf="(numero1+numero2)>=7">
+    <span class="badge bg-success">
+      ganaste
+    </span>
+  </h1>
+</div>
